@@ -1,0 +1,13 @@
+{
+  "name": "syncdev-monorepo",
+  "version": "1.0.0",
+  "description": "Unified SyncDev Environment Bootstrapper",
+  "private": true,
+  "scripts": {
+    "start": "concurrently \"cd desktop-daemon && \\\"C:\\\\Program Files\\\\Go\\\\bin\\\\go.exe\\\" run main.go\" \"cd ai-orchestrator && npx tsx src/agent.ts\" \"cd desktop-ide && npm run dev\" \"cd mobile-ide && npm start\"",
+    "install:all": "concurrently \"cd ai-orchestrator && npm install --legacy-peer-deps\" \"cd desktop-ide && npm install\" \"cd mobile-ide && npm install\" \"cd sync-engine && npm install\""
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}
