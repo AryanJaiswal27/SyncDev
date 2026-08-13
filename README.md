@@ -1,3 +1,6 @@
+![Group project meme](./group%20project%20meme.webp)
+![Slave meme](./slave%20meme.jpg)
+
 # SyncDev
 
 SyncDev is an AI-powered, cross-platform Integrated Development Environment (IDE) that enables seamless collaborative software development across desktop and mobile devices.
