@@ -1,0 +1,9 @@
+{
+  "mcpServers": {
+    "syncdev-ai-orchestrator": {
+      "command": "node",
+      "args": ["ai-orchestrator/mcp-server.js"],
+      "env": {}
+    }
+  }
+}
